@@ -1,0 +1,31 @@
+@media (min-width: 1200px) {
+  .bgi {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .tabw,
+  .tiw {
+    width: 45%;
+  }
+}
+
+.skscrp {
+  background-image: url(./images/DotCom_Update_U4B_bg_mobileD.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.scroll-btn {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+
+.scroll-btn:hover .btop {
+  display: inline-block !important;
+}
